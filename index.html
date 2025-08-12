@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Chavez</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="wrapper">
+                    <div class="nav-content">
+                        <div class="nav-logo">
+                            <h2>RC</h2>
+                            <button class="toggle-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                            </button>
+                        </div>
+                        <ul class="nav-links close-li">
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#projects">Projects</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="form.html">Contact</a></li>
+                            <button class="theme-toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                                </svg>
+                            </button> 
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero wrapper reveal" id="home"> <!--Hero Section-->
+            <h1>Rodrigo Chavez</h1>
+            <h2>Developer</h2>
+            <span class="plus">+</span>
+            <span id="typing-text"></span> <!--This will be animated-->
+        </section>
+
+        <section class="projects-container wrapper reveal-right" id="projects"> <!--Projects Section-->
+            <div class="project-card">
+                <div class="project-card__media">
+                    <img src="Project One (Main Street Burgers) Desktop img.png" alt="Project One">
+                    <p>プロジェクト</p>
+                </div>
+                <div class="project-card__details">
+                    <p class="project-card__details-number">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m16.49 12 3.75 3.75m0 0-3.75 3.75m3.75-3.75H3.74V4.499" />
+                        </svg>
+                        01
+                    </p>
+                    <div class="project-card__details-description">
+                        <h3>Restaurant webpage</h3>
+                        <p>A responsive menu website for Main Street Burgers with a clean design and easy navigation.</p>
+                        <a href="https://rchavez146.github.io/MainStreetBurgers/" target="_blank">
+                            View Project
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about wrapper reveal-left" id="about"> <!--About Section-->
+            <div class="about__details">
+                <h3>Hi there</h3>
+                <p>
+                    My name is Rodrigo and I specialize in Front-End Development. My tech stach includes HTML, CSS, JavaScript and Bootstrap. 
+                    I am currently learning React and tailwind to add more to my toolkit.
+                </p>
+                <p>
+                    Other than programming I enjoy watching sports, playing video games, and designing websites.
+                </p>
+                <a href="form.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                    </svg>
+                    Send me a message
+                </a>
+            </div>
+
+            <div class="about__media">
+                <p class="caption">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m16.49 12 3.75 3.75m0 0-3.75 3.75m3.75-3.75H3.74V4.499" />
+                    </svg>
+                    About me
+                </p>
+                <div class="about__media__image-text">
+                    <img src="selfie.jpeg" alt="selfie image">
+                    <p class="vertical-text">ロドリゴ</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="wrapper">
+            <p>&copy; 2025 Rodrigo Chavez</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('#typing-text', {
+          strings: ['HTML', 'CSS', 'JavaScript'],
+          typeSpeed: 110,
+          backSpeed: 120,
+          backDelay: 2000,
+          loop: true,
+          showCursor: false,
+
+        });
+    </script>
+</body>
+</html>
